@@ -12,10 +12,13 @@ h1{
   line-height: 1.7;
 
 }
-h2{
+.heading2{
   text-align: center;
   font-weight: 900;
   color: white;
+}
+h3{
+  margin-bottom: 30px;
 }
 #Skills{
    padding: 7% 15%;
