@@ -4,17 +4,17 @@
     $messagge = $_Post['message'];
 
 
-    $email_from = 'Javiermajano98@gmail.com';
+    $email_from = 'javiermajano98@gmail.com';
 
     $email_subject = "Submission";
 
     $email_body = "User Name: $name.\n".
                      "User Email: $visitor_email.\n".
-                       "User Message: $messagge.\n".
+                       "User Message: $messagge.\n";
 
-    $t0 = "Javiermajano98@gmail.com";
+    $to = "javiermajano98@gmail.com";
 
-    $headers = "From:  $email_from \r\n".
+    $headers = "From:  $email_from \r\n";
 
     $headers = "Reply-To:  $visitor_email \r\n".;
 
