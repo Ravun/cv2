@@ -136,16 +136,20 @@
       </div>
 
     </div>
-    <div class="">
-      <form class="details" action="get" method="post">
+    <div class="contact-details">
+      <form class="details" action="contact-form-handler" method="post">
         <div class="form">
-          <label for="name">Your first and Last Name </label>
-          <input type="text" name="name" id="name" required>
+
+          <input type="text" type=="name" id="name" class="form-control" placeholder="Your First and Last Name" required>
         </div>
         <div class="form">
-          <label for="email">Your email address </label>
-          <input type="email" name="email" id="email" required>
+            <br>
+              <input type="email" type="email" id="email" class="form-control" placeholder="Your Email address" required>
         </div>
+        <br>
+        <textarea name="message" class="form-control" placeholder="Message" rows="4" cols="4" required></textarea>
+        <br>
+        <input type="submit" class="form-control submit" name="" value="Submit">
 
       </form>
 
@@ -153,7 +157,7 @@
     <div class="bottom-container">
    <a class="footer-link" href="https://github.com/Ravun">Github</a>
    <a class="footer-link" href="https://www.linkedin.com/in/javier-majano-888b36178/">Linkedin</a>
-   
+
    <p>© 2020 Javier Majano.</p>
  </div>
   </section>
