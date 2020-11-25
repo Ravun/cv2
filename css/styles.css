@@ -144,13 +144,14 @@ h3 {
 }
 .footer-link{
      padding: 0 3rem;
+     margin: auto;
 }
 .bottom{
   margin-bottom: 3rem;
   color: black;
 }
 .container{
-  padding: 5% 20%;
+  padding: 5% 15%;
 }
 .bottom-container{
     padding-top: 50px 0 20px;
