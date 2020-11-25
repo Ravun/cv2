@@ -4,7 +4,7 @@
     $messagge = $_Post['message'];
 
 
-    $email_from = 'javiermajano98@gmail.com';
+    $email_from = 'emial';
 
     $email_subject = "Submission";
 

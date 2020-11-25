@@ -14,7 +14,8 @@ h1 {
   font-weight: 900;
   font-size: 3rem;
   line-height: 1.5;
-   overflow-wrap: normal;
+text-align: left;
+
 }
 
 .heading2 {
@@ -104,9 +105,11 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
 }
-.details{
+.contact-details{
 
     margin: auto;
+    width: 100%;
+        padding: 0% 20%;
 }
 .submit {
    background: black;
