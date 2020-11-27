@@ -1,6 +1,8 @@
+/* title */
 #title {
   background-color: #a2d5f2;
   padding-bottom: 20%;
+
 }
 
 body {
@@ -8,9 +10,9 @@ body {
   overflow-x: hidden;
 
 }
-
+/* heading sectoin */
 h1 {
-  font-family: 'Montserrat', sans-serif;
+
   font-weight: 900;
   font-size: 3rem;
   line-height: 1.5;
@@ -26,17 +28,26 @@ text-align: left;
 
 h3 {
   margin-bottom: 30px;
-  font-family: 'Montserrat', sans-serif;
+
   font-weight: 700;
   font-size: 2.3rem;
   text-align: center;
 }
 
 .Languages {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
+
+  font-weight: 700;
+}
+/* about section */
+#about{
+  background-color: b
+
+    padding: 10% 20%;
+    font-weight: 700;
+    background-image: url('images/glasses.jpg');
 }
 
+/* skill section */
 #Skills {
   padding: 7% 15%;
   background-color: #000000;
@@ -60,8 +71,6 @@ h3 {
 }
 
 .navbar-brand {
-  font-family: 'Montserrat', sans-serif;
-  font-style: italic;
   font-size: 2.5rem;
   font-weight: bold;
 }
@@ -75,7 +84,9 @@ h3 {
 }
 
 .profile {
-  width: 45%;
+  width: 60%;
+  position: relative;
+  left: 100px;
 }
 
 .icon {
@@ -86,7 +97,7 @@ h3 {
 .icon:hover {
   color: white;
 }
-
+/* contact section */
 #Contact {
   background-color: #a2d5f2;
   padding-top: 70px;
@@ -94,17 +105,16 @@ h3 {
   text-align: center;
 }
 
+.info1{
 
+}
 .contact {
   text-align: left;
   margin: auto;
-  font-family: 'Montserrat', sans-serif;
+
   font-weight: 700;
 }
-.contact-details{
 
-    margin: auto;
-}
 .submit {
    background: black;
    background-image: -webkit-linear-gradient(top, #000000, #000000);
@@ -141,19 +151,23 @@ h3 {
 }
 .footer-link{
      padding: 0 3rem;
-     margin: auto;
+
 }
 .bottom{
   margin-bottom: 3rem;
   color: black;
 }
-.info{
-  padding: 0% 15%;
-}
-.bottom-container{
-    padding-top: 50px 0 20px;
-}
 
-.me{
-  font-weight: 900;
+.bottom-container{
+     margin: 20px 0px;
+}
+@media (max-width: 1028px) {
+  h1{
+      text-align: center;
+  }
+  .about{
+    text-align: center;
+  }
+
+
 }
