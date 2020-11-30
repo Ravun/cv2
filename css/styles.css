@@ -2,22 +2,25 @@
 #title {
   background-color: #a2d5f2;
   padding-bottom: 20%;
+}
 
+.box {
+  border: 1px solid #fafafa;
+  border-radius: 5px;
+  padding: 20px 0px 20px 40px;
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
   overflow-x: hidden;
-
 }
+
 /* heading sectoin */
 h1 {
-
   font-weight: 900;
   font-size: 3rem;
   line-height: 1.5;
-text-align: left;
-
+  text-align: left;
 }
 
 .heading2 {
@@ -28,29 +31,20 @@ text-align: left;
 
 h3 {
   margin-bottom: 30px;
-
   font-weight: 700;
   font-size: 2.3rem;
   text-align: center;
 }
 
 .Languages {
-
   font-weight: 700;
 }
+
 /* about section */
-#about{
-  background-color: b
-
-    padding: 10% 20%;
-    font-weight: 700;
-    background-image: url('images/glasses.jpg');
-}
-
 /* skill section */
 #Skills {
-  padding: 7% 15%;
-  background-color: #000000;
+  padding: 0% 15% 5%;
+  background-color: #ff7e67;
 }
 
 .skill {
@@ -64,6 +58,10 @@ h3 {
   color: white;
   font-weight: 700;
   font-size: 1.2rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
 }
 
 .navbar {
@@ -83,6 +81,10 @@ h3 {
   padding: 3% 11%;
 }
 
+.info1 {
+  padding-top: 0%;
+}
+
 .profile {
   width: 60%;
   position: relative;
@@ -97,6 +99,7 @@ h3 {
 .icon:hover {
   color: white;
 }
+
 /* contact section */
 #Contact {
   background-color: #a2d5f2;
@@ -105,69 +108,85 @@ h3 {
   text-align: center;
 }
 
-.info1{
-
-}
 .contact {
   text-align: left;
   margin: auto;
-
   font-weight: 700;
 }
 
+.contact-details {
+  width: 36%;
+  margin: auto;
+}
+
 .submit {
-   background: black;
-   background-image: -webkit-linear-gradient(top, #000000, #000000);
-   background-image: -moz-linear-gradient(top, #000000, #000000);
-   background-image: -ms-linear-gradient(top, #000000, #000000);
-   background-image: -o-linear-gradient(top, #000000, #000000);
-   background-image: -webkit-gradient(to bottom, #000000, #000000);
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
-   color: #0059A0;
-   font-family: sans-serif;
-   font-size: 40px;
-   font-weight: 500;
-
-   -webkit-box-shadow: 1px 1px 20px 0 #000000;
-   -moz-box-shadow: 1px 1px 20px 0 #000000;
-   box-shadow: 1px 1px 20px 0 #000000;
-   text-shadow: 1px 1px 20px #000000;
-   text-decoration: none;
-   display: inline-block;
-   cursor: pointer;
-   text-align: center;
-
+  background: black;
+  background-image: -webkit-linear-gradient(top, #000000, #000000);
+  background-image: -moz-linear-gradient(top, #000000, #000000);
+  background-image: -ms-linear-gradient(top, #000000, #000000);
+  background-image: -o-linear-gradient(top, #000000, #000000);
+  background-image: -webkit-gradient(to bottom, #000000, #000000);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #0059A0;
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
 }
 
 .submit:hover {
-   background: #FFFFFF;
-   border: solid #FFFFFF 0;
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
-   text-decoration: none;
+  background: #FFFFFF;
+  border: solid #FFFFFF 0;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
 }
-.footer-link{
-     padding: 0 3rem;
 
+.footer-link {
+  padding: 0 3rem;
 }
-.bottom{
+
+.bottom {
   margin-bottom: 3rem;
   color: black;
 }
 
-.bottom-container{
-     margin: 20px 0px;
+.bottom-container {
+  margin: 20px 0px;
 }
+
+@media (max-width: 1170px) {
+  #Skills {
+    padding: 0;
+  }
+}
+
 @media (max-width: 1028px) {
-  h1{
-      text-align: center;
-  }
-  .about{
+  h1 {
     text-align: center;
+    font-size: 2rem;
   }
 
+  .about {
+    text-align: center;
+    font-size: 1rem;
+  }
 
+  .profile {
+    .margin-top: 30px;
+  }
+
+  .contact-details {
+    width: 100%;
+  }
 }
