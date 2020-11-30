@@ -9,6 +9,9 @@
   border-radius: 5px;
   padding: 20px 0px 20px 40px;
 }
+html{
+  overflow-x:hidden;
+}
 
 body {
   font-family: 'Montserrat', sans-serif;
